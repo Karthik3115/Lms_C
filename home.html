@@ -8,10 +8,21 @@
 </head>
 <body>
     <a href="login.html" class="logout">Logout</a>
-    <video autoplay muted loop>
-        <source src="https://www.pexels.com/download/video/14854547/ ">
-        <source src="https://www.pexels.com/download/video/14854547/" type="video/webm">
+    
+    <div class="content">
+        <h1>BRAND OF BMW</h1>
+        <br>
+        <p>BMW, short for Bayerische Motoren Werke, is one of the world’s leading luxury automotive brands, known for combining performance, technology, and premium craftsmanship. Founded in 1916 in Munich, Germany, the company originally produced aircraft engines before shifting its focus to motorcycles and automobiles. Over the decades, BMW has built a strong identity around the idea of “The Ultimate Driving Machine,” emphasizing sportiness, precision engineering, and driver-focused design. The brand offers a wide range of vehicles, including sedans like the 3 Series and 5 Series, luxury SUVs in the X lineup, powerful M-Series performance cars, and innovative electric models under the i-Series. BMW vehicles are recognized for their refined interiors, advanced safety systems, turbocharged engines, and cutting-edge technologies such as the iDrive infotainment system and driver-assistance features. The company also owns Mini and Rolls-Royce, strengthening its position in the global luxury market. With a growing commitment to electric mobility, BMW continues to expand its EV range while maintaining the sporty driving dynamics it is known for. Today, BMW stands as a symbol of status, innovation, and engineering excellence, appealing to drivers who value both luxury and high performance in every ride.</p>
+    </div>
+    
+    <video autoplay muted loop playsinline id="bgVideo">
+        <source src="https://assets.mixkit.co/videos/3529/3529-720.mp4">
+        <source src="https://assets.mixkit.co/videos/3529/3529-720.mp4" type="video/webm">
         Your browser does not support the video tag.
     </video>
+    
+    <script>
+        document.getElementById('bgVideo').playbackRate = 0.5;
+    </script>
 </body>
 </html>

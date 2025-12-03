@@ -1,0 +1,123 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.header-container {
+    width: 100%;
+    padding: 15px 30px;
+    background: #111;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-items {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.head-items a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: antiquewhite;
+}
+
+.black-box {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 0px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.first-box {
+    display: inline-flex;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+.black-box:not(.first-box) {
+    transition: width 5s;
+    transform-origin: left center;
+}
+
+.black-box:not(.first-box):hover {
+    width: 100vw;
+}
+
+.box-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.box-image:hover {
+    transform: scale(1.2);
+}
+
+.rotate-box {
+    transition: transform 5s;
+}
+
+.rotate-box:hover {
+    transform: rotate(360deg);
+}
+
+.skew-circle-box {
+    transition: all 2s;
+}
+
+.skew-circle-box:hover {
+    border-radius: 50%;
+}
+
+.anti-clockwise-box {
+    transition: transform 5s;
+}
+
+.anti-clockwise-box:hover {
+    transform: rotate(-360deg);
+}
+
+.rotate-skew-box {
+    transition: all 3s;
+}
+
+.rotate-skew-box:hover {
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+
+.box-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(6, 5, 5);
+    margin: 20px 0 10px 0;
+    text-align: left;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+.box-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(6, 5, 5);
+    margin: 20px 0 10px 0;
+    text-align: left;
+    margin-left: 110px;
+    margin-top: 50px;
+}
