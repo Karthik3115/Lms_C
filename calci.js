@@ -43,3 +43,7 @@ function startVoice() {
         alert('Voice recognition not supported');
     }
 }
+
+
+
+
